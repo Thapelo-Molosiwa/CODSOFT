@@ -34,3 +34,19 @@ function ProductList() {
 }
 
 export default ProductList;
+
+
+/**<article class="card">
+<div class="card-img">
+<div class="card-imgs pv delete"></div>
+</div>
+<div class="project-info">
+<div class="flex">
+  <div class="project-title">Moi</div>
+  <span class="tag">description</span>
+</div>
+<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </span>
+</div>
+</article>
+**/
+

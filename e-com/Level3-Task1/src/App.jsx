@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import ProductList from '../components/all recipies/RecipyList'
+import ProductList from "../components/all products/ProductLists";
 
 function App() {
  
