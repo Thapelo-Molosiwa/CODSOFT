@@ -17,7 +17,7 @@ function Home() {
 
   return (
    
-    <div className={styles.container}>
+    <div >
       
       {products.map((product) => (
         <article className={styles["card"]} key={product.id}>
