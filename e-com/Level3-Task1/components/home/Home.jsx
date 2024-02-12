@@ -16,8 +16,9 @@ function Home() {
   }, []);
 
   return (
-    <div>
-      <h1>Product List</h1>
+   
+    <div className={styles.container}>
+      
       {products.map((product) => (
         <article className={styles["card"]} key={product.id}>
           <div className={styles["card-img"]}>
@@ -29,9 +30,9 @@ function Home() {
           <div className={styles["project-info"]}>
             <div className={styles["flex"]}>
               <div className={styles["project-title"]}>{product.title}</div>
-              <span className={styles["tag"]}>{product.category}</span>
+              
             </div>
-            <span>{product.description}</span>
+            <span className={styles["tag"]}>{product.category}</span>
           </div>
         </article>
       ))}

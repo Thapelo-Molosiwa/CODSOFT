@@ -2,6 +2,9 @@
 .navbar {
     background-color: #333;
     padding: 10px;
+    height: 45px;
+    display: flex;
+    justify-content: space-evenly;
   }
   
   .fixed {
@@ -17,10 +20,21 @@
     margin: 0;
     padding: 0;
     display: flex;
+    position: relative;
+    top: 15px;
+    
   }
   
   .navList li {
     margin-right: 15px;
+    font-weight: 200px;
+    
+  }
+
+  .pee{
+    display: flex;
+    position: relative;
+    left: 500px;
   }
   
   .navList a {
@@ -31,4 +45,10 @@
   .navList a:hover {
     border-bottom: 2px solid white;
   }
+
+  .heee{
+    position: relative;
+    right: 500px;
+  }
+  
   
